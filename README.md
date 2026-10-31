@@ -1,6 +1,13 @@
 # TouchyOS
 
+![macOS](https://img.shields.io/badge/macOS-14.0%2B-black?style=flat&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-5.9-orange?style=flat&logo=swift)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+![Build](https://img.shields.io/badge/Build-SwiftPM-blue?style=flat)
+
 A native macOS app designed for touchscreen MacBooks that adapts the window system and operating system to be more comfortable for touch users, inspired by iOS/iPadOS.
+
+**[GitHub Repo](https://github.com/edonado2/touchy-os)** | **[Issues](https://github.com/edonado2/touchy-os/issues)** | **[Discussions](https://github.com/edonado2/touchy-os/discussions)**
 
 ## Features
 
@@ -30,7 +37,7 @@ A native macOS app designed for touchscreen MacBooks that adapts the window syst
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/touchy-os.git
+git clone https://github.com/edonado2/touchy-os.git
 cd touchy-os
 ./build.sh
 open .build/release/TouchyOS.app
