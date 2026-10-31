@@ -1,0 +1,22 @@
+# Build artifacts
+.build/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.dSYM/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.xcuserstate
+
+# App bundles
+*.app/
+
+# Logs
+*.log
