@@ -39,8 +39,8 @@ A native macOS app designed for touchscreen MacBooks that adapts the window syst
 ```bash
 git clone https://github.com/edonado2/touchy-os.git
 cd touchy-os
-./build.sh
-open .build/release/TouchyOS.app
+swift build -c release
+.build/release/TouchyOS
 ```
 
 ### Grant Permissions
@@ -116,8 +116,7 @@ TouchyOS/
 │   └── Resources/
 │       ├── Info.plist
 │       └── TouchyOS.entitlements
-├── Package.swift
-└── build.sh
+└── Package.swift
 ```
 
 ## Technical Details
