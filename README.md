@@ -163,3 +163,9 @@ MIT License - see LICENSE file for details
 - Inspired by iPadOS touch interactions
 - Built with SwiftUI and AppKit
 - Uses macOS Accessibility API for window management
+
+## What I built and what was hard
+
+I built a SwiftUI and AppKit menu bar app. It watches window state with AXObserver, reads multi-touch gestures through an event monitor and draws an overlay for window snapping, a virtual trackpad and an on-screen keyboard. The repo includes unit tests and an MIT license.
+
+The hard part was the macOS Accessibility API. Window discovery uses CGWindowListCopyWindowInfo, and the observer has to stay alive while the app runs as a background agent with no dock icon. Gesture handling also had to let ordinary mouse and keyboard input through instead of swallowing it.
